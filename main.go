@@ -24,7 +24,7 @@ func main() {
 
 	ctx, _ := chromedp.NewExecAllocator(context.Background(), opts...)
 
-	targetURL := "https://shopee.com.my/evolene_sumbar.my#product_list"
+	targetURL := "https://shopee.co.id/evoleneofficialshop#product_list"
 
 	err := scrapeShopeeByShopName(ctx, targetURL)
 
