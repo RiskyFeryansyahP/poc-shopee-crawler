@@ -1,12 +1,15 @@
-module github.com/confus1on/shopee-crawler
+module github.com/confus1on/poc-shopee-crawler
 
 go 1.23
 
 toolchain go1.23.3
 
 require (
-	github.com/chromedp/cdproto v0.0.0-20241022234722-4d5d5faf59fb // indirect
-	github.com/chromedp/chromedp v0.11.2 // indirect
+	github.com/chromedp/cdproto v0.0.0-20241022234722-4d5d5faf59fb
+	github.com/chromedp/chromedp v0.11.2
+)
+
+require (
 	github.com/chromedp/sysutil v1.1.0 // indirect
 	github.com/gobwas/httphead v0.1.0 // indirect
 	github.com/gobwas/pool v0.2.1 // indirect

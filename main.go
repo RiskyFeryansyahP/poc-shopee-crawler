@@ -9,7 +9,7 @@ import (
 	"github.com/chromedp/cdproto/cdp"
 	"github.com/chromedp/chromedp"
 
-	"github.com/confus1on/shopee-crawler/pkg/selector"
+	"github.com/confus1on/poc-shopee-crawler/pkg/selector"
 )
 
 func main() {
